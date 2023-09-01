@@ -1,7 +1,7 @@
 ﻿
 string resp;
 
-Console.WriteLine("This is *Proj2* an interactive story, chosse from the given choices and progress.");
+Console.WriteLine("This is *Proj2* an interactive story, choose from the given choices and progress.");
 Console.WriteLine("Lets try it!");
 Console.WriteLine("Do you understand?");
 Console.WriteLine("(y)Yea/(n)No");
@@ -12,7 +12,7 @@ if(resp == "n"){
 else if(resp == "y"){
     Console.WriteLine("Great!.");
 
-    Console.WriteLine("xxx");
+    Console.WriteLine("xxxx");
     Console.WriteLine("Do you a)xxx b)yyy c)zzz");
     resp = Console.ReadLine();
 
@@ -26,7 +26,7 @@ else if(resp == "y"){
 
     }
     else{
-        Console.WriteLine("Chosse a viable answer next time.");
+        Console.WriteLine("Choose a viable answer next time.");
     }
 }
 
