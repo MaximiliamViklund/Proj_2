@@ -1,7 +1,7 @@
 ﻿
 string resp;
 
-Console.WriteLine("This is *Proj2* an interactive story, choose from the given choices and progress.");
+Console.WriteLine("This is A Walk in the Dark, an interactive story, choose from the given choices and progress, or else.");
 Console.WriteLine("Lets try it!");
 Console.WriteLine("Do you understand?");
 Console.WriteLine("(y)Yea/(n)No");
