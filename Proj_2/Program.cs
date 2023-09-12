@@ -54,7 +54,6 @@ if(resp == "y"){
         }
         else{
              Console.WriteLine("Choose a viable answer next time.");
-              }
         }
     }
     else if(resp == "b"){
@@ -78,6 +77,7 @@ if(resp == "y"){
                     Console.WriteLine("He says that you are welcome to stay for a while, as he continues working on the field.");
                     Console.WriteLine("Do you a)search the house b)have some tea c)leave");
                     resp = Console.ReadLine().ToLower();
+                
 
                     if(resp == "a"){
                         Console.WriteLine("You walk around the house, you find mostly what you'd expect in a farmers house.");
